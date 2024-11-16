@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    margin: 10px;
+}
+
+.menu{
+    display: flex;
+    background: #ff6403;
+    align-items: center;
+}
+.menuNav1{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 450px;
+    text-decoration: none;
+}
+.menuNav1 p {
+    font-weight: bold;
+}
+.menuNav1 span {
+    font-weight: lighter;
+}
+
+.menuNav2{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.contentNews {
+    background: bisque;
+    display: flex;
+}
+.contentNewsImg {
+    width: 150%;
+    height: 150%;
+}
+.pageLabel {
+    text-align: center;
+    font-size: 25px;
+}
+.headerNews {
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentAllNews {
+    display: flex;
+    justify-content: space-between;
+}
+.contentNews1{
+    margin: 0px;
+    width: 100%;
+}
+.contentNews1Image {
+    margin: 0px;
+    width: 98%;
+}
+.contentNews1Text {
+    margin: 0px;
+    width: 95%;
+}
+.contentNews1 button {
+    background: #ff6403;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.contentAllNews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступы между блоками */
+    justify-content: space-between;
+}
+
+.contentNews1 {
+    width: calc(25% - 20px); /* 4 колонки с отступом */
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contentNews1Image {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Задаем одинаковую высоту для всех изображений */
+    overflow: hidden;
+}
+
+.contentNews1Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обрезка изображения, чтобы оно заполнило контейнер */
+    object-position: center; /* Центрирование изображения */
+}
+
+.contentNews1Text {
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.headerNews {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.buy-button {
+    background-color: #ff6403;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
